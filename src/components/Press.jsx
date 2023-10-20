@@ -6,7 +6,7 @@ const Press = () => {
     return (
         <section id="about" className="py-32 bg-gray-100">
             <div className="container mx-auto px-4 ">
-                <div className="flex md:items-center max-md:flex-col max-md:gap-10 ">
+                <div className="flex flex-row-reverse md:items-center max-md:flex-col max-md:gap-10 ">
                     <div className="md:basis-1/2 basis-full flex-1">
                         <div className="md:w-7/12 w-10/12 aspect-square mx-auto gap-6  grid grid-cols-2 grid-rows-5 ">
                             <div className="bg-[#367DCB] rounded-3xl flex  items-end p-4 text-white text-3xl font-semibold row-span-3">Press</div>
