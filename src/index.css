@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+.button-shadow{
+    box-shadow: -3px 3Px 10px 5px rgba(51, 51, 51, 0.1);
+}
