@@ -13,7 +13,7 @@ const data = [
 ]
 const Products = () => {
     return (
-        <div className="bg-gray-300 py-32">
+        <section id="products" className="bg-gray-300 py-32">
             <div className="container mx-auto px-4 ">
                 <div className="max-w-7xl mx-auto flex max-xl:flex-wrap gap-10 ">
                     <div className="h-1/2 xl:basis-2/12  aspect-square flex-1 bg-blue-500 rounded-3xl p-6 text-3xl text-white flex items-end font-semibold">PRO <br />DUCTS</div>
@@ -25,7 +25,7 @@ const Products = () => {
                     </div>)}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

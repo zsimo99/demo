@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="flex items-center">
                     <h1 className="-translate-y-1 text-5xl font-bold text-white">create</h1>
                 </div>
-                <ul className="flex text-white text-lg font-semibold items-center">
+                <ul className="flex text-white text-lg font-semibold items-center max-md:hidden">
                     <li><a className="hover:bg-[rgba(255,255,255,20%)] transition-colors duration-300 px-6 py-4" href="#about">ABOUT US</a></li>
                     <li><a className="hover:bg-[rgba(255,255,255,20%)] transition-colors duration-300 px-6 py-4" href="#products">PRODUCTS</a></li>
                     <li><a className="hover:bg-[rgba(255,255,255,20%)] transition-colors duration-300 px-6 py-4" href="#press">PRESS</a></li>

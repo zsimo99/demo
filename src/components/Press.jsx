@@ -4,7 +4,7 @@ import Button from "./Button"
 
 const Press = () => {
     return (
-        <section id="about" className="py-32 bg-gray-100">
+        <section id="press" className="py-32 bg-gray-100">
             <div className="container mx-auto px-4 ">
                 <div className="flex flex-row-reverse md:items-center max-md:flex-col max-md:gap-10 ">
                     <div className="md:basis-1/2 basis-full flex-1">
